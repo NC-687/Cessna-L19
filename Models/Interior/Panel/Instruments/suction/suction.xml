@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+
+<PropertyList> 
+
+  <path>suction.ac</path>
+
+  <animation>
+    <!-- Objects Opaques -->
+    <object-name>fond</object-name>
+    <object-name>visses</object-name>
+    <object-name>face</object-name>
+    <object-name>needle</object-name>
+
+    <!-- Objects Transparents -->
+    <object-name>vitre</object-name>
+  </animation>
+
+  <!-- working for Rembrandt -->
+  <effect>
+    <inherits-from>Aircraft/Cessna-L19/Models/Effects/glass/glass</inherits-from>
+    <object-name>vitre</object-name>
+  </effect>
+  
+  <animation> 
+    <type>material</type>
+    <object-name>face</object-name>
+    <object-name>needle</object-name>
+    <emission>
+      <factor-prop>systems/electrical/outputs/instrument-lights</factor-prop>
+      <red>   0.50 </red>
+      <green> 0.25 </green>
+      <blue>  0.25 </blue>
+    </emission>
+  </animation>
+
+	<!-- Swamp's notes. This is a suction/vacuum guage. The operation is similar to that of any internal combustion engine except it is driven by a vacuum pump like a deisel engine. Vacuum in an internal cubustion engine goes down as the butterflies are opened in the carberator or throttle body and RPM's go up. For this reason the aircraft engine is fitted with a vacuum pump to maintain a consisntant vacuum for essential needs of the aircraft systems, therefore as RPM's go up so should vacuum slightly instead of down like you would find at the manifold -->
+
+  <animation>
+    <type>rotate</type>
+    <object-name>needle</object-name>
+    <property>/systems/vacuum/suction-inhg</property>
+    <interpolation>
+    <entry><ind>   0 </ind><dep>   0 </dep></entry>
+    <entry><ind>   1 </ind><dep>   25 </dep></entry>    
+    <entry><ind>   2 </ind><dep>   80 </dep></entry>
+    <entry><ind>   3 </ind><dep>   145 </dep></entry>   
+    <entry><ind>   4 </ind><dep>   150</dep></entry>    
+    <entry><ind>   5 </ind><dep>   155 </dep></entry>
+    </interpolation>
+    <axis>
+      <x> -1 </x>
+      <y>  0 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+
+
+  
+</PropertyList>
