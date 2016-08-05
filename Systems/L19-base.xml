@@ -61,8 +61,7 @@
       <file>Aircraft/Cessna-L19/Nasal/immat.nas</file>
       <file>Aircraft/Cessna-L19/Nasal/liveries.nas</file>
       <file>Aircraft/Cessna-L19/Nasal/light.nas</file>
-	  <file>Aircraft/Cessna-L19/Nasal/engine.nas</file>
-    </L19>
+	</L19>
   </nasal>
 
 </PropertyList>
