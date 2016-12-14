@@ -116,13 +116,13 @@
              cruise-speed="135" 
              cruise-rpm="2575"
              cruise-alt="6000" 
-             cruise-power="213"
-             takeoff-power="280" 
+             cruise-power="240"
+             takeoff-power="320" 
              takeoff-rpm="2600">
              <actionpt x="3.857" y="0" z="-0.103"/>
              <control-input axis="/controls/engines/engine[0]/propeller-pitch" control="ADVANCE" />
              <piston-engine eng-rpm="2700" 
-                            eng-power="213"
+                            eng-power="240"
                             displacement="471" 
                             compression="7">
                             <control-input axis="/controls/engines/engine[0]/throttle" control="THROTTLE"/>
