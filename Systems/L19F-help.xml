@@ -16,5 +16,9 @@
     <name>L</name>
     <desc>Up/Down floats rudders</desc>
   </key>
+  <key>
+    <name>e</name>
+    <desc>Rockets fire</desc>
+  </key>
   
 </PropertyList>

@@ -50,6 +50,7 @@
     <object-name>helice</object-name>
     <object-name>echappes</object-name>
     <object-name>lampes</object-name>
+    <object-name>cables</object-name>
     
     <!-- Objets transparents -->
     <object-name>vitres</object-name>
@@ -83,6 +84,7 @@
     <object-name>helice</object-name>
     <object-name>echappes</object-name>
     <object-name>lampes</object-name>
+    <object-name>cables</object-name>
     
     <property-base>sim/model/livery</property-base>
     <texture-prop>texture</texture-prop>
@@ -138,6 +140,20 @@
     <path>Aircraft/Cessna-L19/Models/Interior/interior.xml</path>
   </model>
 
+  <!-- Rockets -->
+  <model>
+    <name>AllRockets</name>
+    <path>Aircraft/Cessna-L19/Models/Weapons/all-rocket.xml</path>
+  </model>
+  
+  <animation>
+    <type>select</type>
+    <object-name>AllRockets</object-name>
+    <condition>
+      <property>/sim/model/show-rocket</property>
+    </condition>
+  </animation>
+  
   <!-- Cranking effects -->
   <!-- Left -->
   <model>

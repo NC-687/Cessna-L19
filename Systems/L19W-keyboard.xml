@@ -22,6 +22,23 @@
       </binding>
     </key>
     
+    <!-- ###### -->   
+    <key n="101">
+      <name>e</name>
+      <desc>Rockets</desc>
+      <binding>
+        <command>nasal</command>
+        <script>guns.fire_Rocket()</script>
+      </binding>
+      <mod-up>
+        <binding>
+          <command>nasal</command>
+          <script>guns.stop_Rocket()</script>
+        </binding>
+      </mod-up>
+    </key>
+    <!-- ###### -->   
+    
   </keyboard>
   
 </PropertyList>

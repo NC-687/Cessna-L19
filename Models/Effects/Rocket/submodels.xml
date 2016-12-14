@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <rocket>
+    <model>Aircraft/Cessna-L19/Models/Weapons/rocket-smoke.xml</model>
+    <trigger>controls/armament/trigger</trigger>
+    <speed>2000</speed>                         <!-- ft/sec -->
+    <repeat>true</repeat>
+    <delay>0.1</delay>                          <!-- 0.05 -->
+    <count>-1</count>                           <!-- 32 rockets per pod(UB-32 launchers)  -->
+    <yaw-offset>0</yaw-offset>
+    <pitch-offset>0</pitch-offset>
+    <life>120</life>
+    <wind>false</wind>
+    <weight>11</weight>                         <!-- lbs. (S-5KPB rockets for UB-32 launcher) -->
+    <cd>0.075</cd>
+    <eda>0.01051198</eda>
+    <collision>true</collision>
+    <collision-report>sim/ai/aircraft/collision/gun</collision-report>
+    <impact>true</impact>
+    <impact-report>sim/ai/aircraft/impact/bullet</impact-report>
+    <submodel-path>Aircraft/Cessna-L19/Models/Effects/Rocket/Rocket-Submodel.xml</submodel-path>
+  </rocket>
+  
+  <!-- Rockets left -->
+  <submodel>
+    <name>Left 1 Rockets</name>
+    <model alias="../../rocket/model"/>
+    <trigger alias="../../rocket/trigger"/>
+    <speed alias="../../rocket/speed"/>
+    <repeat alias="../../rocket/repeat"/>
+    <delay alias="../../rocket/delay"/>
+    <count alias="../../rocket/count"/>
+    <yaw-offset alias="../../rocket/yaw-offset"/>
+    <pitch-offset alias="../../rocket/pitch-offset"/>
+    <life alias="../../rocket/life"/>
+    <wind alias="../../rocket/wind"/>
+    <weight alias="../../rocket/weight"/>
+    <cd alias="../../rocket/cd"/>
+    <eda alias="../../rocket/eda"/>
+    <collision alias="../../rocket/collision"/>
+    <collision-report alias="../../rocket/collision-report"/>
+    <impact alias="../../rocket/impact"/>
+    <impact-report alias="../../rocket/impact-report"/>
+    <submodel-path alias="../../rocket/submodel-path"/>
+    <x-offset>  4.7440963 </x-offset> <!-- -1.44593 m =  4.7440963 ft -->
+    <y-offset> 10.9833770 </y-offset> <!-- -3.34757 m = 10.9833770 ft -->
+    <z-offset>  1.8057312 </z-offset> <!--  0.55036 m =  1.8057312 ft -->
+  </submodel>
+  
+  <submodel>
+    <name>Left 2 Rockets</name>
+    <model alias="../../rocket/model"/>
+    <trigger alias="../../rocket/trigger"/>
+    <speed alias="../../rocket/speed"/>
+    <repeat alias="../../rocket/repeat"/>
+    <delay alias="../../rocket/delay"/>
+    <count alias="../../rocket/count"/>
+    <yaw-offset alias="../../rocket/yaw-offset"/>
+    <pitch-offset alias="../../rocket/pitch-offset"/>
+    <life alias="../../rocket/life"/>
+    <wind alias="../../rocket/wind"/>
+    <weight alias="../../rocket/weight"/>
+    <cd alias="../../rocket/cd"/>
+    <eda alias="../../rocket/eda"/>
+    <collision alias="../../rocket/collision"/>
+    <collision-report alias="../../rocket/collision-report"/>
+    <impact alias="../../rocket/impact"/>
+    <impact-report alias="../../rocket/impact-report"/>
+    <submodel-path alias="../../rocket/submodel-path"/>
+    <x-offset>  4.7440963 </x-offset> <!-- -1.44593 m =  4.7440963 ft -->
+    <y-offset> 10.3381030 </y-offset> <!-- -3.15090 m = 10.3381030 ft -->
+    <z-offset>  1.8057312 </z-offset> <!--  0.55036 m =  1.8057312 ft -->
+  </submodel>
+  
+  <submodel>
+    <name>Left 3 Rockets</name>
+    <model alias="../../rocket/model"/>
+    <trigger alias="../../rocket/trigger"/>
+    <speed alias="../../rocket/speed"/>
+    <repeat alias="../../rocket/repeat"/>
+    <delay alias="../../rocket/delay"/>
+    <count alias="../../rocket/count"/>
+    <yaw-offset alias="../../rocket/yaw-offset"/>
+    <pitch-offset alias="../../rocket/pitch-offset"/>
+    <life alias="../../rocket/life"/>
+    <wind alias="../../rocket/wind"/>
+    <weight alias="../../rocket/weight"/>
+    <cd alias="../../rocket/cd"/>
+    <eda alias="../../rocket/eda"/>
+    <collision alias="../../rocket/collision"/>
+    <collision-report alias="../../rocket/collision-report"/>
+    <impact alias="../../rocket/impact"/>
+    <impact-report alias="../../rocket/impact-report"/>
+    <submodel-path alias="../../rocket/submodel-path"/>
+    <x-offset> 4.7440963 </x-offset> <!-- -1.44593 m = 4.7440963 ft -->
+    <y-offset> 9.2772572 </y-offset> <!-- -2.82757 m = 9.2772572 ft -->
+    <z-offset> 1.7729212 </z-offset> <!--  0.54036 m = 1.7729212 ft -->
+  </submodel>
+  
+  <submodel>
+    <name>Left 4 Rockets</name>
+    <model alias="../../rocket/model"/>
+    <trigger alias="../../rocket/trigger"/>
+    <speed alias="../../rocket/speed"/>
+    <repeat alias="../../rocket/repeat"/>
+    <delay alias="../../rocket/delay"/>
+    <count alias="../../rocket/count"/>
+    <yaw-offset alias="../../rocket/yaw-offset"/>
+    <pitch-offset alias="../../rocket/pitch-offset"/>
+    <life alias="../../rocket/life"/>
+    <wind alias="../../rocket/wind"/>
+    <weight alias="../../rocket/weight"/>
+    <cd alias="../../rocket/cd"/>
+    <eda alias="../../rocket/eda"/>
+    <collision alias="../../rocket/collision"/>
+    <collision-report alias="../../rocket/collision-report"/>
+    <impact alias="../../rocket/impact"/>
+    <impact-report alias="../../rocket/impact-report"/>
+    <submodel-path alias="../../rocket/submodel-path"/>
+    <x-offset> 4.7440963 </x-offset> <!-- -1.44593 m = 4.7440963 ft -->
+    <y-offset> 8.6319829 </y-offset> <!-- -2.63090 m = 8.6319829 ft -->
+    <z-offset> 1.7729212 </z-offset> <!--  0.54036 m = 1.7729212 ft -->
+  </submodel>
+  
+  <!-- Rockets left -->
+  <submodel>
+    <name>Left 4 Rockets</name>
+    <model alias="../../rocket/model"/>
+    <trigger alias="../../rocket/trigger"/>
+    <speed alias="../../rocket/speed"/>
+    <repeat alias="../../rocket/repeat"/>
+    <delay alias="../../rocket/delay"/>
+    <count alias="../../rocket/count"/>
+    <yaw-offset alias="../../rocket/yaw-offset"/>
+    <pitch-offset alias="../../rocket/pitch-offset"/>
+    <life alias="../../rocket/life"/>
+    <wind alias="../../rocket/wind"/>
+    <weight alias="../../rocket/weight"/>
+    <cd alias="../../rocket/cd"/>
+    <eda alias="../../rocket/eda"/>
+    <collision alias="../../rocket/collision"/>
+    <collision-report alias="../../rocket/collision-report"/>
+    <impact alias="../../rocket/impact"/>
+    <impact-report alias="../../rocket/impact-report"/>
+    <submodel-path alias="../../rocket/submodel-path"/>
+    <x-offset>  4.7440963 </x-offset> <!-- -1.44593 m =  4.7440963 ft -->
+    <y-offset> -8.6319829 </y-offset> <!--  2.63090 m = -8.6319829 ft -->
+    <z-offset>  1.7729212 </z-offset> <!--  0.54036 m =  1.7729212 ft -->
+  </submodel>
+  
+  <submodel>
+    <name>Left 3 Rockets</name>
+    <model alias="../../rocket/model"/>
+    <trigger alias="../../rocket/trigger"/>
+    <speed alias="../../rocket/speed"/>
+    <repeat alias="../../rocket/repeat"/>
+    <delay alias="../../rocket/delay"/>
+    <count alias="../../rocket/count"/>
+    <yaw-offset alias="../../rocket/yaw-offset"/>
+    <pitch-offset alias="../../rocket/pitch-offset"/>
+    <life alias="../../rocket/life"/>
+    <wind alias="../../rocket/wind"/>
+    <weight alias="../../rocket/weight"/>
+    <cd alias="../../rocket/cd"/>
+    <eda alias="../../rocket/eda"/>
+    <collision alias="../../rocket/collision"/>
+    <collision-report alias="../../rocket/collision-report"/>
+    <impact alias="../../rocket/impact"/>
+    <impact-report alias="../../rocket/impact-report"/>
+    <submodel-path alias="../../rocket/submodel-path"/>
+    <x-offset>  4.7440963 </x-offset> <!-- -1.44593 m =  4.7440963 ft -->
+    <y-offset> -9.2772572 </y-offset> <!--  2.82757 m = -9.2772572 ft -->
+    <z-offset>  1.7729212 </z-offset> <!--  0.54036 m =  1.7729212 ft -->
+  </submodel>
+  
+  <submodel>
+    <name>Left 2 Rockets</name>
+    <model alias="../../rocket/model"/>
+    <trigger alias="../../rocket/trigger"/>
+    <speed alias="../../rocket/speed"/>
+    <repeat alias="../../rocket/repeat"/>
+    <delay alias="../../rocket/delay"/>
+    <count alias="../../rocket/count"/>
+    <yaw-offset alias="../../rocket/yaw-offset"/>
+    <pitch-offset alias="../../rocket/pitch-offset"/>
+    <life alias="../../rocket/life"/>
+    <wind alias="../../rocket/wind"/>
+    <weight alias="../../rocket/weight"/>
+    <cd alias="../../rocket/cd"/>
+    <eda alias="../../rocket/eda"/>
+    <collision alias="../../rocket/collision"/>
+    <collision-report alias="../../rocket/collision-report"/>
+    <impact alias="../../rocket/impact"/>
+    <impact-report alias="../../rocket/impact-report"/>
+    <submodel-path alias="../../rocket/submodel-path"/>
+    <x-offset>   4.7440963 </x-offset> <!-- -1.44593 m =   4.7440963 ft -->
+    <y-offset> -10.3381030 </y-offset> <!--  3.15090 m = -10.3381030 ft -->
+    <z-offset>   1.8057312 </z-offset> <!--  0.55036 m =   1.8057312 ft -->
+  </submodel>
+  
+  <submodel>
+    <name>Left 1 Rockets</name>
+    <model alias="../../rocket/model"/>
+    <trigger alias="../../rocket/trigger"/>
+    <speed alias="../../rocket/speed"/>
+    <repeat alias="../../rocket/repeat"/>
+    <delay alias="../../rocket/delay"/>
+    <count alias="../../rocket/count"/>
+    <yaw-offset alias="../../rocket/yaw-offset"/>
+    <pitch-offset alias="../../rocket/pitch-offset"/>
+    <life alias="../../rocket/life"/>
+    <wind alias="../../rocket/wind"/>
+    <weight alias="../../rocket/weight"/>
+    <cd alias="../../rocket/cd"/>
+    <eda alias="../../rocket/eda"/>
+    <collision alias="../../rocket/collision"/>
+    <collision-report alias="../../rocket/collision-report"/>
+    <impact alias="../../rocket/impact"/>
+    <impact-report alias="../../rocket/impact-report"/>
+    <submodel-path alias="../../rocket/submodel-path"/>
+    <x-offset>   4.7440963 </x-offset> <!-- -1.44593 m =   4.7440963 ft -->
+    <y-offset> -10.9833770 </y-offset> <!--  3.34757 m = -10.9833770 ft -->
+    <z-offset>   1.8057312 </z-offset> <!--  0.55036 m =   1.8057312 ft -->
+  </submodel>
+  
+</PropertyList>

@@ -24,6 +24,7 @@
       <livery>
         <file type="string">default</file>
       </livery>
+      <show-rocket type="bool">0</show-rocket>
     </model>
     
     <sound>

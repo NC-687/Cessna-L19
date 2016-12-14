@@ -8,10 +8,14 @@
     <name>d</name>
     <desc>Open/Close crew door</desc>
   </key>
-  
   <key>
     <name>l</name>
     <desc>On/Off Landing light</desc>
   </key>
+  <key>
+    <name>e</name>
+    <desc>Rockets fire</desc>
+  </key>
+  
   
 </PropertyList>

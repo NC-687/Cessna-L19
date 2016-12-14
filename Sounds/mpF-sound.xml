@@ -219,6 +219,15 @@
       </pitch>
     </wind>
     
+    <!-- rockets away -->
+    <crash>
+      <name>Rockets</name>
+      <condition>
+        <property>controls/armament/trigger</property>
+      </condition>
+      <path>Aircraft/Cessna-L19/Sounds/rocket_away.wav</path>
+    </crash>
+    
   </fx>
   
 </PropertyList>

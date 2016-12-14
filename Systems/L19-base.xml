@@ -10,20 +10,27 @@
      <splash-texture>Aircraft/Cessna-L19/L19-splash.png</splash-texture>
     </startup>
 
+    <!-- ##################### -->
+    <submodels>
+      <serviceable type="bool">true</serviceable>
+      <path>Aircraft/Cessna-L19/Models/Effects/Rocket/submodels.xml</path>
+    </submodels>
+    <!-- ##################### -->
+    
     <multiplay>
       <chat_display>1</chat_display>
       <generic> 
-        <int   n="0"  type="int">  0 </int>                                      <!-- 0 immat -->
-        <int   n="1"  type="int">  0 </int>                                      <!-- 1 immat -->
-        <int   n="2"  type="int">  0 </int>                                      <!-- 2 immat -->
-        <int   n="3"  type="int">  0 </int>                                      <!-- 3 immat -->
-        <int   n="4"  type="int">  0 </int>                                      <!-- 4 immat -->
-        <int   n="5"  type="int">  0 </int>                                      <!-- 5 immat -->
-        <int   n="6"  type="bool"> 1 </int>                                      <!-- 6 smoke/bomb/torpedo -->
-        <int   n="7"  type="bool"> 0 </int>                                      <!-- 7 Show radar -->
-        <int   n="8"  alias="/systems/electrical/outputs/nav-lights">  0 </int>  <!-- 8 nav-lights -->
-        <int   n="9"  alias="/sim/model/lights/beacon/state">  false </int>      <!-- 9 strobe-lights -->
-        <int   n="10" alias="/controls/electric/key-pos">  0 </int>              <!-- 10 key position -->
+        <int   n="0"  type="int">  0 </int>                                      <!--  0 immat -->
+        <int   n="1"  type="int">  0 </int>                                      <!--  1 immat -->
+        <int   n="2"  type="int">  0 </int>                                      <!--  2 immat -->
+        <int   n="3"  type="int">  0 </int>                                      <!--  3 immat -->
+        <int   n="4"  type="int">  0 </int>                                      <!--  4 immat -->
+        <int   n="5"  type="int">  0 </int>                                      <!--  5 immat -->
+        <int   n="6"  type="bool"> 1 </int>                                      <!--  6 smoke/bomb/torpedo -->
+        <int   n="7"  type="bool"> 0 </int>                                      <!--  7 Show radar -->
+        <int   n="8"  alias="/systems/electrical/outputs/nav-lights">  0 </int>  <!--  8 nav-lights -->
+        <int   n="9"  alias="/sim/model/lights/beacon/state">  false </int>      <!--  9 strobe-lights -->
+        <int   n="11" alias="/sim/model/show-rocket">  0 </int>                      <!-- 11 Show rocket -->
         <float n="0"  alias="/sim/model/door-positions/crew/position-norm"/>
         <float n="1"  alias="/sim/model/door-positions/passenger/position-norm"/>
         <float n="2"  alias="/position/gear-agl-m"> 0 </float>                   <!-- altitude for MP shadow -->
@@ -61,7 +68,13 @@
       <file>Aircraft/Cessna-L19/Nasal/immat.nas</file>
       <file>Aircraft/Cessna-L19/Nasal/liveries.nas</file>
       <file>Aircraft/Cessna-L19/Nasal/light.nas</file>
-	</L19>
+      <file>Aircraft/Cessna-L19/Nasal/damage.nas</file>
+    </L19>
+    <!-- ########### -->
+    <guns>
+      <file>Aircraft/Cessna-L19/Nasal/weapons.nas</file>
+    </guns>
+    <!-- ########### -->
   </nasal>
 
 </PropertyList>

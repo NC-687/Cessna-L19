@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+  
+  <sim>
+    
+    <model>
+      <livery>
+        <name type="string">Little Annie Fanny</name>
+        <texture>Liveries/2048x2048/Little_Annie_Fanny.png</texture>
+        <specular>
+          <red>   0.3 </red>
+          <green> 0.3 </green>
+          <blue>  0.3 </blue>
+        </specular>
+      </livery>
+    </model>
+    
+  </sim>
+  
+</PropertyList>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <PropertyList>
-
+  
   <default>
     <menu n="10">
       <label>Cessna L19 / O1</label>
@@ -13,16 +13,14 @@
           <script>aircraft.livery.dialog.toggle()</script>
         </binding>
       </item>
-      <!-- 
       <item>
-        <label>Immatriculation</label>
+        <label>Show/hide Rockets</label>
         <binding>
-          <command>nasal</command>
-          <script>L19.immat_dialog.toggle()</script>
+          <command>property-toggle</command>
+          <property>/sim/model/show-rocket</property>
         </binding>
       </item>
-      -->
     </menu>
   </default>
-
+  
 </PropertyList>

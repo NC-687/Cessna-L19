@@ -6,11 +6,11 @@
 
   <animation>
     <!-- Objets opaques -->
-    <object-name>axesG</object-name>
+    <object-name>axeG</object-name>
     <object-name>roueG</object-name>
-    <object-name>axesD</object-name>
+    <object-name>axeD</object-name>
     <object-name>roueD</object-name>
-    <object-name>axesA</object-name>
+    <object-name>axeA</object-name>
     <object-name>roueA</object-name>
     
     <!-- Objets transparents -->
@@ -18,27 +18,27 @@
 
   <animation>
     <type>material</type>
-    <object-name>axesG</object-name>
+    <object-name>axeG</object-name>
     <object-name>roueG</object-name>
-    <object-name>axesD</object-name>
+    <object-name>axeD</object-name>
     <object-name>roueD</object-name>
-    <object-name>axesA</object-name>
+    <object-name>axeA</object-name>
     <object-name>roueA</object-name>
     
     <property-base>sim/model/livery</property-base>
     <texture-prop>texture</texture-prop>
     <texture>texture.png</texture>
-    <emission>
+    <specular>
       <red-prop>emission/red</red-prop>
       <green-prop>emission/green</green-prop>
       <blue-prop>emission/blue</blue-prop>
-    </emission>
+    </specular>
   </animation>
 
   <effect>
     <inherits-from>Aircraft/Generic/Effects/Fuselagereflect</inherits-from>
-    <object-name>axesG</object-name>
-    <object-name>axesD</object-name>
+    <object-name>axeG</object-name>
+    <object-name>axeD</object-name>
   </effect>
 
   <!-- Effets sur le sol -->
